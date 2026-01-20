@@ -1,0 +1,21 @@
+.box {
+  /* Size and Spacing */
+  width: 500px; 
+  height: 360px;
+         
+  /* Box ko thoda chouda (wide) banaya */
+  padding: 40px;       /* Andar thodi saans lene ki jagah */
+    /* Center mein rakhne ke liye */
+  text-align: center;  /* Text aur button center karne ke liye */
+
+  /* Colors - Soft Pink Gradient */
+  background: linear-gradient(135deg, #fff0f5, #ffc0cb); 
+  color: #800020;      /* Maroon text taaki background se match kare */
+
+  /* Border and Shape */
+  border: 5px solid white;  /* Photo frame jaisa mota border */
+  border-radius: 30px;      /* Corners ko smooth round banaya */
+
+  /* 3D Effect (Shadow) */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5); /* Ye box ko hawa mein uthayega */
+}
